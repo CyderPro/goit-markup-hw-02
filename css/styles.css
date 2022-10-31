@@ -30,12 +30,14 @@ h6 {
     margin: 0;
 }
 
+/* ============================= HEADER ========================== */
+
 .header-title {
     font-family: var(--font-ral);
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -47,7 +49,7 @@ h6 {
 .header-nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -60,7 +62,7 @@ h6 {
 .header-contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -70,6 +72,8 @@ h6 {
     color: #2196F3;
 }
 
+/* ============================= MAIN ========================== */
+
 .hero {
     background: #2F303A;
 }
@@ -77,7 +81,7 @@ h6 {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.3636;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -85,6 +89,7 @@ h6 {
 }
 
 .hero-btn {
+    font-family: inherit;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -101,46 +106,54 @@ h6 {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.1666;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
+/* ============================= BENEFITS ========================== */
+
 .title-benefits {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .benefits {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+/* ============================= OUR TEAM ========================== */
+
+.team {
+    background: #F5F4FA;
 }
 
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .team-subtitle {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* ============================= FOOTER ========================== */
 
 .footer {
     background: #2F303A;
@@ -151,7 +164,7 @@ h6 {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -161,20 +174,27 @@ h6 {
 }
 
 .footer-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
+.footer-link:hover,
+.footer-link:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: #2196F3;
+}
+
 .footer-contacts {
-    font-weight: 400;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* ============================= PORTFOLIO ========================== */
 
 .main-btn {
     background: #F5F4FA;
@@ -197,9 +217,8 @@ h6 {
 }
 
 .portfolio-subtitle {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
 }
